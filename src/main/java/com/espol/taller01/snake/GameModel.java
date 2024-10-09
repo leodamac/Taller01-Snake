@@ -60,6 +60,7 @@ public abstract class GameModel {
 	 */
 	public GameTile getGameboardState(final Position pos) {
 		return getGameboardState(pos.getX(), pos.getY());
+                
 	}
 
 	/**
